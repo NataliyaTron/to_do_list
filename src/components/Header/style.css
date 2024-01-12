@@ -1,0 +1,19 @@
+.header {
+  background: #1CA9C9;
+  display: flex;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo img {
+  width: 200px;
+  height: 100px;
+}
+.header__button {
+  background: #F3F3F3;
+  color: #1CA9C9;
+}
+
+/*# sourceMappingURL=style.css.map */
