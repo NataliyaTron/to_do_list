@@ -1,0 +1,166 @@
+Index: src/App.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\nimport \"./normalize.scss\";\nimport Header from './components/Header/Header';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <Header />\n    </div>\n  );\n}\n\nexport default App;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.tsx b/src/App.tsx
+--- a/src/App.tsx	(revision 47c1cb40812fcc3515aa023292f6c2cd03e9f2dd)
++++ b/src/App.tsx	(date 1705066999654)
+@@ -1,11 +1,13 @@
+ import React from 'react';
+ import "./normalize.scss";
+ import Header from './components/Header/Header';
++import Footer from './components/Footer/Footer';
+ 
+ function App() {
+   return (
+     <div className="App">
+       <Header />
++      <Footer />
+     </div>
+   );
+ }
+Index: src/components/Footer/Footer.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\r\n\r\nconst Footer = () => {\r\n  return (\r\n    <div>\r\n      \r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Footer;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Footer/Footer.tsx b/src/components/Footer/Footer.tsx
+--- a/src/components/Footer/Footer.tsx	(revision 47c1cb40812fcc3515aa023292f6c2cd03e9f2dd)
++++ b/src/components/Footer/Footer.tsx	(date 1705066999686)
+@@ -1,9 +1,40 @@
+ import React from 'react';
++import "./style.scss";
+ 
+ const Footer = () => {
+   return (
+-    <div>
+-      
++    <div className="footer">
++      <div className="footer__inner container">
++        <div className="footer__logo">
++          <img src="https://thumbs.dreamstime.com/b/%D1%84%D1%80%D0%B0%D0%B7%D0%B0-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D0%BE%D0%B3%D0%BE-%D1%87%D1%82%D0%BE%D0%B1%D1%8B-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0-%D0%B2%D0%B5%D0%B1%D1%81%D0%B0%D0%B9%D1%82%D0%B0-115894258.jpg" alt="logo"/>
++        </div>
++      <ul className="footer__social-list">
++        <li className="footer__social-item">
++          <img
++            src="https://www.svgrepo.com/show/510291/twitter.svg"
++            alt="Twitter"
++          />
++        </li>
++        <li className="footer__social-item">
++          <img
++            src="https://www.svgrepo.com/show/509249/social-youtube.svg"
++            alt="Youtube"
++          />
++        </li>
++        <li className="footer__social-item">
++          <img
++            src="https://www.svgrepo.com/show/509233/social-facebook.svg"
++            alt="Facebook"
++          />
++        </li>
++        <li className="footer__social-item">
++          <img
++            src="https://www.svgrepo.com/show/521711/instagram.svg"
++            alt="Instagram"
++          />
++        </li>
++      </ul>
++      </div>
+     </div>
+   );
+ };
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"736596ce-b1bb-4925-b471-2de6f20129da\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.eslintrc.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.prettierrc\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/Footer/Footer.tsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/Header/Header.tsx\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/normalize.scss\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/pages/GreetingPage/GreetingPage.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.css\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.test.tsx\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/logo.svg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/react-app-env.d.ts\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/reportWebVitals.ts\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/setupTests.ts\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"header\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3\n}</component>\r\n  <component name=\"ProjectId\" id=\"2aoYZqbliEWMGtjXIQISY3Jg8MX\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"dev\",\n    \"last_opened_file_path\": \"C:/Users/User/Desktop/react-app\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"watcher.settings\",\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\User\\\\Desktop\\\\to_do_list\\\\node_modules\\\\typescript\\\\lib\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"736596ce-b1bb-4925-b471-2de6f20129da\" name=\"Changes\" comment=\"\" />\r\n      <created>1704986457043</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1704986457043</updated>\r\n      <workItem from=\"1704986458071\" duration=\"3048000\" />\r\n      <workItem from=\"1704991438323\" duration=\"1616000\" />\r\n      <workItem from=\"1705037671854\" duration=\"17274000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/dev\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 47c1cb40812fcc3515aa023292f6c2cd03e9f2dd)
++++ b/.idea/workspace.xml	(date 1705067027264)
+@@ -5,24 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="736596ce-b1bb-4925-b471-2de6f20129da" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/normalize.scss" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/pages/GreetingPage/GreetingPage.tsx" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.scss" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -53,7 +39,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "dev",
++    "git-widget-placeholder": "footer",
+     "last_opened_file_path": "C:/Users/User/Desktop/react-app",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+Index: src/components/Footer/style.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Footer/style.scss b/src/components/Footer/style.scss
+new file mode 100644
+--- /dev/null	(date 1705067075094)
++++ b/src/components/Footer/style.scss	(date 1705067075094)
+@@ -0,0 +1,33 @@
++.footer {
++  background: #1CA9C9;
++  bottom: 0;
++  width: 100%;
++  padding: 20px 0;
++  flex: 0 0 auto;
++
++  &__inner {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++  }
++
++  &__logo {
++    width: 200px;
++    height: 100px;
++  }
++
++  &__social-list {
++    display: flex;
++    gap: 10px;
++    list-style-type: none;
++  }
++
++  &__social-item {
++  }
++
++  &__social-item img {
++    width: 30px;
++    height: 30px;
++  }
++}
++
