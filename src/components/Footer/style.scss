@@ -1,0 +1,33 @@
+.footer {
+  background: #9C9C9C;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  flex: 0 0 auto;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  &__social-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  &__social-item {
+  }
+
+  &__social-item img {
+    width: 30px;
+    height: 30px;
+  }
+}
+

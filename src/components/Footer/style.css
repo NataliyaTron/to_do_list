@@ -1,0 +1,27 @@
+.footer {
+  background: #9C9C9C;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  flex: 0 0 auto;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo img {
+  width: 200px;
+  height: 100px;
+}
+.footer__social-list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+.footer__social-item img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
