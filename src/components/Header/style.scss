@@ -1,6 +1,7 @@
 .header {
-  background: #1CA9C9;
+  background: #9C9C9C !important;
   display: flex;
+  padding: 20px 0;
 
   &__inner {
     display: flex;
@@ -14,7 +15,7 @@
   }
 
   &__button {
-    background: #F3F3F3;
+    background:  #828282 !important;
     color: #1CA9C9;
   }
 }

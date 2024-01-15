@@ -7,6 +7,25 @@
 .container {
   flex-grow: 1;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  &__text {
+    text-align: center;
+  }
+
+  &__button {
+    background: #F36223 !important;
+    overflow: hidden;
+    white-space: nowrap;
+    align-self: center;
+    margin-top: 20px !important;
+  }
 }

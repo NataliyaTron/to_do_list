@@ -10,11 +10,12 @@ const MainLayout: FC<PropsWithChildren> = () => {
     <div className="wrapper">
       <Header />
       <div className="container">
-        <Typography variant="h5" component="h5">
-          Todo List – список дел и таск-менеджер № 1 в мире. Он поможет вам обрести концентрацию, организованность и покой.
-        </Typography>
-        <Button variant="contained">Приступить</Button>
-        <Outlet />
+          <div className="main">
+              <Typography variant="h5" component="h5" className="main__text">
+                  Todo List – список дел и таск-менеджер № 1 в мире. Он поможет вам обрести концентрацию, организованность и покой.
+              </Typography>
+              <Button variant="contained" className="main__button">Приступить</Button>
+          </div>
       </div>
       <Footer />
     </div>
