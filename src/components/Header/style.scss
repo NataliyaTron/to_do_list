@@ -1,0 +1,21 @@
+.header {
+  background: #9C9C9C !important;
+  display: flex;
+  padding: 20px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  &__button {
+    background:  #828282 !important;
+    color: #1CA9C9;
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  background: #9C9C9C !important;
+  display: flex;
+  padding: 20px 0;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo img {
+  width: 200px;
+  height: 100px;
+}
+.header__button {
+  background: #828282 !important;
+  color: #1CA9C9;
+}
+
+/*# sourceMappingURL=style.css.map */
