@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Button, IconButton, Toolbar, Typography } from '@mui/material';
-
+import "./style.scss";
 
 const Header = () => {
   return (
