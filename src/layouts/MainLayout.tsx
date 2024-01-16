@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import "./style.scss";
 import { Button, Typography } from '@mui/material';
+import Panel from "../components/Panel/Panel";
 
 const MainLayout: FC<PropsWithChildren> = () => {
   return (

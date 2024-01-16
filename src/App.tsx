@@ -1,15 +1,9 @@
 import React from 'react';
 import "./normalize.scss";
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import GreetingPage from './pages/GreetingPage/GreetingPage';
+import AppRouter from "./AppRouter";
 
-function App() {
-  return (
-    <div className="App">
-      <GreetingPage />
-    </div>
-  );
+const App = () => {
+  return <AppRouter />;
 }
 
 export default App;
