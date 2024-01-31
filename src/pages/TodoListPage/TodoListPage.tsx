@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import TodoList from "../../components/TodoList/TodoList";
-import Header from "../../components/Header/Header";
 import Panel from "../../components/Panel/Panel";
 import {Box} from "@mui/material";
 
@@ -13,9 +12,9 @@ export type Todo = {
 const TodoListPage = () => {
     const [editTodoId, setEditTodoId] = useState<number | null>(null);
     const [todoList, setTodoList] = useState([
-        {id: 1, name: "task 1", description: "test1", checked: false},
-        {id: 2, name: "task 2", description: "test2", checked: false},
-        {id: 3, name: "task 3", description: "testagjkfdkfagjfdfjkgldk", checked: true},
+        {id: 1, name: "Чтение статьи по JS", description: "Чтение learnJS", checked: false},
+        {id: 2, name: "Работа над приложением", description: "Сделать логику приложения", checked: false},
+        {id: 3, name: "UI фреймворки", description: "Практиковать UI фреймворки (MUi)", checked: true},
     ]);
 
     const onEdit = (id: Todo["id"]) => {
@@ -49,9 +48,8 @@ const TodoListPage = () => {
 
     console.log("@@@", editTodoId)
     return (
-        <Box display="flex" flexDirection="column">
-            <Header />
-            <Panel onAddTodo={onAddTodo}/>
+        <Box display="flex" flexDirection="column" alignItems="center">
+            <Panel onAddTodo={onAddTodo} />
             <TodoList editTodoId={editTodoId} todoList={todoList} onDeleteTodo={onDeleteTodo} onCheckTodo={onCheckTodo} onEdit={onEdit} onChangeTodo={onChangeTodo}/>
         </Box>
     );

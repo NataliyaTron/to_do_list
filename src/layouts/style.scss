@@ -16,16 +16,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
   &__text {
     text-align: center;
-  }
-
-  &__button {
-    background: #F36223 !important;
-    overflow: hidden;
-    white-space: nowrap;
-    align-self: center;
-    margin-top: 20px !important;
   }
 }

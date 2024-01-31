@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc636f86-beeb-40bf-ac65-a1dc81fdc04d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/EditTodoItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_42_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_42__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_43__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_44_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_44__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_45_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_45__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_47_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_47__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_17_48__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Panel/Panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Panel/Panel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/EditTodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/EditTodoItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoItem/TodoItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoItem/TodoList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TodoListPage/TodoListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TodoListPage/TodoListPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +79,9 @@
       <workItem from="1705470421239" duration="20732000" />
       <workItem from="1705553797448" duration="8163000" />
       <workItem from="1705663032261" duration="5073000" />
-      <workItem from="1705758398579" duration="8845000" />
+      <workItem from="1705758398579" duration="9294000" />
+      <workItem from="1706614773119" duration="2384000" />
+      <workItem from="1706691453124" duration="10958000" />
     </task>
     <servers />
   </component>

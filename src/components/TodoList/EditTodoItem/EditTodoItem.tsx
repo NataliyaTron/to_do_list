@@ -23,7 +23,7 @@ const EditTodoItem: React.FC<EditTodoItemProps> = ({todo, onChangeTodo}) => {
     }
 
     return (
-        <Paper variant="elevation" sx={{marginTop: "15px", width: "400px", padding: "20px 28px", borderRadius: 2, display: "flex", justifyContent: "space-between", alignContent: "center", gap: 2}}>
+        <Paper variant="elevation" sx={{marginTop: "15px", width: "800px", padding: "20px 28px", borderRadius: 2, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 2}}>
             <TextField value={editTodo.name} onChange={handleChange} name="name" label="name" />
             <TextField value={editTodo.description} onChange={handleChange} name="description" label="todo description" />
             <Button startIcon={<EditIcon />} variant="outlined" onClick={handleClick}>EDIT</Button>

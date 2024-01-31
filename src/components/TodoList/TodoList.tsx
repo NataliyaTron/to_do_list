@@ -23,7 +23,7 @@ const TodoList: React.FC<TodoListProps> = ({editTodoId, todoList, onChangeTodo, 
                     );
                 } else {
                     return (
-                        <TodoItem todo={todo} onDeleteTodo={onDeleteTodo} onCheckTodo={onCheckTodo} onEdit={onEdit} key={todo.id}/>
+                        <TodoItem todo={todo} onDeleteTodo={onDeleteTodo} onCheckTodo={onCheckTodo} onEdit={onEdit} key={todo.id} />
                     );
                 }
             })}
