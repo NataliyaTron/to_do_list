@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc636f86-beeb-40bf-ac65-a1dc81fdc04d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TodoListPage/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoItem/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Panel/Panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Panel/Panel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/EditTodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/EditTodoItem/EditTodoItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoItem/TodoItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TodoListPage/TodoListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TodoListPage/TodoListPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +76,8 @@
       <workItem from="1706691453124" duration="15053000" />
       <workItem from="1706774723618" duration="1170000" />
       <workItem from="1706803512658" duration="4775000" />
-      <workItem from="1706854073908" duration="12007000" />
+      <workItem from="1706854073908" duration="12842000" />
+      <workItem from="1706889549692" duration="3011000" />
     </task>
     <servers />
   </component>

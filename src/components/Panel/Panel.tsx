@@ -11,7 +11,7 @@ const Panel: React.FC<PanelProps> = ({onAddTodo}) => {
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
 
-    const handleClick = () => {
+    const handleAddTodo = () => {
         onAddTodo({name: name, description: description});
     }
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,7 +28,7 @@ const Panel: React.FC<PanelProps> = ({onAddTodo}) => {
         <Paper variant="elevation" sx={style.paper}>
             <TextField value={name} onChange={handleChange} name="name" label="name" />
             <TextField value={description} onChange={handleDescription} name="description" label="todo description" />
-            <Button startIcon={<AddIcon />} variant="outlined" onClick={handleClick} sx={style.button}>ADD</Button>
+            <Button startIcon={<AddIcon />} variant="outlined" onClick={handleAddTodo} sx={style.button}>ADD</Button>
         </Paper>
     );
 };

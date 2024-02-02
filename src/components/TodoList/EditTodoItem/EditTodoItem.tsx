@@ -10,7 +10,7 @@ interface EditTodoItemProps {
 }
 const EditTodoItem: React.FC<EditTodoItemProps> = ({todo, onChangeTodo}) => {
     const[editTodo, setEditTodo] = useState({name: todo.name, description: todo.description});
-    const handleClick = () => {
+    const handleSaveEditTodo = () => {
         onChangeTodo(editTodo);
     }
     const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,7 +33,7 @@ const EditTodoItem: React.FC<EditTodoItemProps> = ({todo, onChangeTodo}) => {
         <Paper variant="elevation" sx={style.paper}>
             <TextField value={editTodo.name} onChange={handleNameChange} name="name" label="name" />
             <TextField value={editTodo.description} onChange={handleDescriptionChange} name="description" label="todo description" />
-            <Button startIcon={<EditIcon />} variant="outlined" onClick={handleClick}>EDIT</Button>
+            <Button startIcon={<EditIcon />} variant="outlined" onClick={handleSaveEditTodo}>EDIT</Button>
         </Paper>
     );
 };
