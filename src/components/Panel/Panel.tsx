@@ -1,9 +1,9 @@
-import React, {ChangeEvent, useState} from 'react';
+import React, {useState} from 'react';
 import {Button, Paper, TextField} from "@mui/material";
 import {Add as AddIcon} from "@mui/icons-material";
-import type {Todo} from "../../pages/TodoListPage/TodoListPage";
+import {style} from "./style";
+import {Todo} from "../types";
 
-const DEFAULT_TODO = {name: "", description: ""};
 interface PanelProps {
     onAddTodo: ({name, description}: Omit<Todo, "id" | "checked">) => void;
 }
@@ -13,8 +13,6 @@ const Panel: React.FC<PanelProps> = ({onAddTodo}) => {
 
     const handleClick = () => {
         onAddTodo({name: name, description: description});
-        console.log("click");
-
     }
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
       const { value } = event.target;
@@ -27,10 +25,10 @@ const Panel: React.FC<PanelProps> = ({onAddTodo}) => {
     }
 
     return (
-        <Paper variant="elevation" sx={{width: "800px", padding: "25px 30px", borderRadius: 2, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 2, marginTop: "50px"}}>
+        <Paper variant="elevation" sx={style.paper}>
             <TextField value={name} onChange={handleChange} name="name" label="name" />
             <TextField value={description} onChange={handleDescription} name="description" label="todo description" />
-            <Button startIcon={<AddIcon />} variant="outlined" onClick={handleClick} sx={{backgroundColor: "white", fontWeight: 700, height: "50px"}}>ADD</Button>
+            <Button startIcon={<AddIcon />} variant="outlined" onClick={handleClick} sx={style.button}>ADD</Button>
         </Paper>
     );
 };

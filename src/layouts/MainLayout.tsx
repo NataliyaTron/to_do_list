@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import {useNavigate} from "react-router-dom";
 import "./style.scss";
 import { Button, Typography } from '@mui/material';
+import {style} from "./style";
 
 
 const MainLayout: FC<PropsWithChildren> = () => {
@@ -23,7 +24,7 @@ const MainLayout: FC<PropsWithChildren> = () => {
                   Запоминайте всё и беритесь за любой проект с помощью заметок,
                   задач и расписания - все в одном месте.
               </Typography>
-              <Button onClick={handleNavigate} variant="contained" className="main__button" sx={{backgroundColor: "#F36223", fontWeight: 700, overflow: "hidden", "white-space": "nowrap", "align-self": "center", "&:hover": {backgroundColor: "#F36223"}}}>Приступить</Button>
+              <Button onClick={handleNavigate} variant="contained" className="main__button" sx={style.button}>Приступить</Button>
               <div className="main__img">
                   <img src="https://www.webdesign.org/img_articles/20513/Generate-a-better-schedule.jpg" alt = "todo-list"/>
               </div>

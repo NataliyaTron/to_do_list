@@ -2,14 +2,7 @@ import React from 'react';
 import {Box, IconButton, Paper, Typography} from "@mui/material";
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
-
-
-type Todo = {
-    id: number;
-    name: string;
-    description: string;
-    checked: boolean;
-}
+import {Todo} from "../../types";
 
 interface TodoItemProps {
     todo: Todo;

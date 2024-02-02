@@ -2,7 +2,8 @@ import React from 'react';
 import {Box} from "@mui/material";
 import TodoItem from "./TodoItem/TodoItem";
 import EditTodoItem from "./EditTodoItem/EditTodoItem";
-import {Todo} from "../../pages/TodoListPage/TodoListPage";
+import {Todo} from "../types";
+
 
 interface TodoListProps {
     editTodoId: Todo["id"] | null;
@@ -19,11 +20,11 @@ const TodoList: React.FC<TodoListProps> = ({editTodoId, todoList, onChangeTodo, 
             {todoList.map((todo) => {
                 if (todo.id === editTodoId) {
                     return (
-                        <EditTodoItem todo={todo} onChangeTodo={(todo) => console.log("changes", todo)} key={todo.id}/>
+                        <EditTodoItem todo={todo} key={todo.id} onChangeTodo={onChangeTodo}/>
                     );
                 } else {
                     return (
-                        <TodoItem todo={todo} onDeleteTodo={onDeleteTodo} onCheckTodo={onCheckTodo} onEdit={onEdit} key={todo.id} />
+                        <TodoItem todo={todo} onDeleteTodo={onDeleteTodo} onCheckTodo={onCheckTodo} onEdit={() => onEdit(todo.id)} key={todo.id} />
                     );
                 }
             })}
